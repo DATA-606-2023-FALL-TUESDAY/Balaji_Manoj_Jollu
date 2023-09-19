@@ -4,14 +4,14 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - [GitHub](https://github.com/Jollu-Balaji-Manoj)
 - [LinkedIn](www.linkedin.com/in/balaji-manoj-jollu)
-- Link to your PowerPoint presentation file - in progress
-- Link to your YouTube video - in progress
+- Link to your PowerPoint presentation file - In progress
+- Link to your YouTube video - In progress
 
 ## 2. Background
 - What is it about? 
   - Reinforcement learning is a branch of artificial intelligence and machine learning that focuses on teaching intelligent agents to make decision sequences in an environment in order to maximize cumulative rewards (Predicted value). It serves as a foundation for training robots to learn from mistakes and make decisions in a manner similar to how people do.
   - Reinforcement learning algorithms utilize mathematical techniques of optimization to identify the optimum policy or value function for an agent in a specific environment. This is often accomplished through exploration and exploitation, in which the agent investigates new behaviors to learn more about the environment and then applies what it has learned to make better judgments over time.
-  - Reinforcement learning has been used in a variety of fields, including robots, gaming, autonomous cars, and finance (such as portfolio management, as previously noted). It's a strong paradigm for training machines to make sequential conclusions and adapt to changing conditions, making it an important tool in the field of artificial intelligence.
+  - Reinforcement learning has been used in a variety of fields, including robots, gaming, autonomous cars, and finance. It's a strong paradigm for training machines to make sequential conclusions and adapt to changing conditions, making it an important tool in the field of artificial intelligence.
 
 
 
@@ -21,7 +21,7 @@
 
    1. Improves decision-making with data.
    2. Automates tasks for efficiency.
-   3. Tailors strategies to individual goals.
+   3. Adapts techniques to meet specific objectives.
    4. Manages risk effectively.
    5. Learns and adapts continuously.
    6. Scales for large portfolios.
@@ -32,18 +32,28 @@
 
 - What are your research questions?
   
-   1. **Data Quality**: Is our historical data reliable?
-   2. **Model Robustness**: Can our model adapt to changing markets?
-   3. **Risk Management**: How do we protect against significant losses?
-   4. **Ethical Compliance**: Are we adhering to ethical standards?
-   5. **Human Oversight**: What's the role of humans in decision-making?
-   6. **Data Security**: How do we ensure data security and privacy?
-   7. **Performance Metrics**: What metrics measure success?
-   8. **Costs**: What are the operational costs?
-   9. **Market Dynamics**: How does our model handle changing markets?
-   10. **Communication**: How do we inform stakeholders?
-   11. **Legal Risks**: Are there legal risks?
-   12. **Long-Term Adaptability**: Is our approach adaptable to changes?
+   1. **Data Quality:** How can you ensure that financial data for training and assessment is reliable?
+
+   2. **Model Selection:** What reinforcement learning methods  are best for model selection?
+
+   3. **Reward Function:** What is the best reward function for measuring portfolio performance and risk?
+
+   4. **Exploration vs. Exploitation:** How do you strike a balance between attempting new methods and exploiting old ones?
+
+   5. **Risk Management:** How can you incorporate risk metrics and adapt to changing market conditions?
+
+   6. **Overfitting:** How can you avoid overfitting while ensuring that your model adapts well?
+
+   7. **Continuous Learning:** How does your model adapt and learn from fresh data?
+
+   8. **Interpretability:** How can we improve the decisions made by your model in terms of their interpretability and explicability?
+
+
+
+
+
+
+
 
 ## 3. Data 
 
@@ -69,3 +79,12 @@
 - Which variable/column will be your target/label and features/predictors in your ML model?
   - In this Data Except date and company all the 6 columns are used as features and features
 
+## 4. Exploratory Data Analysis (EDA) 
+## 5. Model Training 
+## 6. Application of the Trained Models
+## 7. Conclusion
+ - In conclusion we are expecting ,Portfolio Management Using Reinforcement Learning offers interesting opportunities for optimizing investing techniques. However, it presents data, model selection, and risk difficulties that must be carefully addressed for successful implementation and long-term success.
+## 8. References
+ 1. Grinold, R. C., & Kahn, R. N. (2000). Active portfolio management.
+ 2. Reilly, F. K., & Brown, K. C. (2011). Investment analysis and portfolio management. Cengage Learning.
+ 3. Jin, O., & El-Saawy, H. (2016). Portfolio management using reinforcement learning. Stanford University.
