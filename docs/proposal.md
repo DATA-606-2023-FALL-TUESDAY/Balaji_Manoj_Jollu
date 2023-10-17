@@ -20,16 +20,16 @@
 
 -	These questions inspire the evolution of property price prediction, allowing for better informed decision-making and the creation of precise prediction systems.
   
-   1.Essential variables: we seek what variables influence property values, such as location, size, amenities, and economic factors.
+   * Essential variables: we seek what variables influence property values, such as location, size, amenities, and economic factors.
 
-   2.Model Effectiveness: They evaluate which machine learning or statistical models, such as linear regression or neural networks, are more effective in predicting prices (Linear Regression,Decision Trees and Random Forest,XGBoost or LightGBM,Support Vector,Regression (SVR),K-Nearest Neighbors (KNN)).
+   * Model Effectiveness: They evaluate which machine learning or statistical models, such as linear regression or neural networks, are more effective in predicting prices (Linear Regression,Decision Trees and Random Forest,XGBoost or LightGBM,Support Vector,Regression (SVR),K-Nearest Neighbors (KNN)).
 
 
-   3.Temporal Trends: They study if models can explain for how real estate values vary over 
+   * Temporal Trends: They study if models can explain for how real estate values vary over 
 
-   4.Considering Risk: They explore strategies to take risk and uncertainty into account when making forecasts, particularly in erratic markets.
+   * Considering Risk: They explore strategies to take risk and uncertainty into account when making forecasts, particularly in erratic markets.
 
-   5.Ethical Concerns: They address possible biases in data or algorithms that may disproportionately influence specific demographic groups in property price projections.
+   * Ethical Concerns: They address possible biases in data or algorithms that may disproportionately influence specific demographic groups in property price projections.
 
 
 ## 3. Data 
