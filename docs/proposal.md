@@ -8,83 +8,79 @@
 - Link to your YouTube video - In progress
 
 ## 2. Background
-- What is it about? 
-  - Reinforcement learning is a branch of artificial intelligence and machine learning that focuses on teaching intelligent agents to make decision sequences in an environment in order to maximize cumulative rewards (Predicted value). It serves as a foundation for training robots to learn from mistakes and make decisions in a manner similar to how people do.
-  - Reinforcement learning algorithms utilize mathematical techniques of optimization to identify the optimum policy or value function for an agent in a specific environment. This is often accomplished through exploration and exploitation, in which the agent investigates new behaviors to learn more about the environment and then applies what it has learned to make better judgments over time.
-  - Reinforcement learning has been used in a variety of fields, including robots, gaming, autonomous cars, and finance. It's a strong paradigm for training machines to make sequential conclusions and adapt to changing conditions, making it an important tool in the field of artificial intelligence.
+### - What is it about? 
+  - Property price prediction is a significant subject in both the fields of real estate and finance. Property price prediction involves predicting the future prices of real estate properties such as homes, flats, commercial buildings, and land using data and predictive modeling approaches. This topic is critical because of the affects for many kinds of stakeholders, including homebuyers, real estate investors, property developers, and legislators.
 
 
+### - Why does it matter?  
 
-- Why does it matter?  
+   - Property price predictions are important because they affect investment decisions, advise purchasers and sellers, influence real estate development, inform policy decisions, and serve as economic indicators. However, these predictions are loaded with risk and should be considered with other criteria for well-informed decision-making.
 
-   - Portfolio management using reinforcement learning we can predict the foliowing :
+### - What are your research questions?
 
-   1. Improves decision-making with data.
-   2. Automates tasks for efficiency.
-   3. Adapts techniques to meet specific objectives.
-   4. Manages risk effectively.
-   5. Learns and adapts continuously.
-   6. Scales for large portfolios.
-   7. Uncovers data insights.
-   8. Reduces human biases.
-   9. Navigates complex markets.
-   10. Drives research and innovation in finance.
-
-- What are your research questions?
+-	These questions inspire the evolution of property price prediction, allowing for better informed decision-making and the creation of precise prediction systems.
   
-   1. **Data Quality:** How can you ensure that financial data for training and assessment is reliable?
+   1.Essential variables: we seek what variables influence property values, such as location, size, amenities, and economic factors.
 
-   2. **Model Selection:** What reinforcement learning methods  are best for model selection?
-
-   3. **Reward Function:** What is the best reward function for measuring portfolio performance and risk?
-
-   4. **Exploration vs. Exploitation:** How do you strike a balance between attempting new methods and exploiting old ones?
-
-   5. **Risk Management:** How can you incorporate risk metrics and adapt to changing market conditions?
-
-   6. **Overfitting:** How can you avoid overfitting while ensuring that your model adapts well?
-
-   7. **Continuous Learning:** How does your model adapt and learn from fresh data?
-
-   8. **Interpretability:** How can we improve the decisions made by your model in terms of their interpretability and explicability?
+   2.Model Effectiveness: They evaluate which machine learning or statistical models, such as linear regression or neural networks, are more effective in predicting prices.
 
 
+   3.Temporal Trends: They study if models can explain for how real estate values vary over 
 
+   4.Considering Risk: They explore strategies to take risk and uncertainty into account when making forecasts, particularly in erratic markets.
 
-
-
+   5.Ethical Concerns: They address possible biases in data or algorithms that may disproportionately influence specific demographic groups in property price projections.
 
 
 ## 3. Data 
 
-- **Data sources:**
-  1. [List of s&p 500 Companyes](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
-  2. we will download data from [Yahoo Finance](https://finance.yahoo.com/)
-- **Data size:** Size of sp500_historical_data for 1 Year is 14.84 MB
-- **Data shape:** 125522 Rows and 8 Columns 
-- **Time period:** 1 year data
-- **Data Dictionary:**
-  | Column Name | Description                                                                     | Data Type  |
-  |-------------|---------------------------------------------------------------------------------|------------|
-  | Date        | Date                                                                            | Time Stamp |
-  | Open        | Stock's initial price at the beginning of the trading day                      | Float      |
-  | High        | Highest point reached during the trading day                                   | Float      |
-  | Low         | Lowest point reached during the trading day                                    | Float      |
-  | Close       | Stock's final price at the end of the trading day                              | Float      |
-  | Adj Close   | Closing price after adjustments for all applicable splits and dividend distributions | Float   |
-  | Volume      | Number of shares traded during the trading day                                 | Float      |
-  | Company     | Company Name                                                                    | String     |
+  1.  This is open source data set from Kaggle - https://www.kaggle.com/code/goyaladi/property-price-ann-predictions/input
+  2.  Size of data Is 180 MB 
+  3. data contains 332096 rows and 32 columns
+  4. we can see data is extracted from website www.makaan.com from india  recently 
+  5. Data Dictionary:
+     
+| Column Name            | Data Type | Description                                        |
+|------------------------|-----------|----------------------------------------------------|
+| Property_Name          | object    | Name of Property                                   |
+| Property_id            | int64     | Property id from the website                       |
+| Property_type          | object    | Type of property (Apartment, Residential Plot, Villa, Independent Floor, Independent House) |
+| Property_status        | object    | Status of property (Ready to move, Under Construction) |
+| Price_per_unit_area    | object    | Price of unit area                                 |
+| Project_URL            | object    | Website of project                                 |
+| builder_id             | float64   | Builder Information                                |
+| Property_building_status | object  | Status of building (ACTIVE, INACTIVE, UNVERIFIED)  |
+| City_name              | object    | Name of city property located                      |
+| No_of_BHK              | object    | Number of bedrooms                                |
+| Locality_ID            | int64     | Zipcode of location                                |
+| Locality_Name          | object    | Area of property                                   |
+| Longitude              | float64   | Longitude                                          |
+| Latitude               | float64   | Latitude                                           |
+| Price                  | object    | Price of property                                  |
+| Size                   | object    | Size of property in sq feet                        |
+| Sub_urban_ID           | int64     | Neighbourhood id                                   |
+| Sub_urban_name         | object    | Neighbourhood name                                 |
+| description            | object    | Property description                               |
+| is_furnished           | object    | Furnished or not                                   |
+| listing_domain_score   | float64   | Domain score                                       |
+| is_plot                | bool      | Is it plot or not                                  |
+| is_RERA_registered      | bool      | Is it approved by Real Estate Regulatory Authority (RERA) |
+| is_Apartment           | bool      | Is it apartment or not                             |
+| is_ready_to_move       | bool      | Is it available to move or not                     |
+| is_commercial_Listing  | bool      | Is it commercially listed or not                   |
+| is_PentaHouse          | bool      | Is it penthouse or not                             |
+| is_studio              | bool      | Is it studio or not                                |
+| Listing_Category       | object    | Under which category it is listed (sell, rent)     |
 
-
-- Which variable/column will be your target/label and features/predictors in your ML model?
-  - In this Data Except date and company all the 6 columns are used as features and features
+  6. Price  variable/column will be your target/label in your ML model.
+  7. Rest of variables/columns except Price , Listing Category , description will be selected as features/predictors for your ML model.
 
 ## 4. Exploratory Data Analysis (EDA) 
 ## 5. Model Training 
 ## 6. Application of the Trained Models
 ## 7. Conclusion
- - In conclusion we are expecting ,Portfolio Management Using Reinforcement Learning offers interesting opportunities for optimizing investing techniques. However, it presents data, model selection, and risk difficulties that must be carefully addressed for successful implementation and long-term success.
+ - In conclusion, our Property Price Prediction study indicates that accurate projections are critical for numerous real estate stakeholders. It emphasizes the difficulty of projecting property values, the need for data quality and preprocessing, and the importance of accounting for temporal patterns and incorporating risk. Ethical issues are acknowledged, and the study provides insights to influence real estate decision-making, with room for further research and development.
 ## 8. References
- 1. Grinold, R. C., & Kahn, R. N. (2000). Active portfolio management.
- 2. Reilly, F. K., & Brown, K. C. (2011). Investment analysis and portfolio management. Cengage Learning.
- 3. Jin, O., & El-Saawy, H. (2016). Portfolio management using reinforcement learning. Stanford University.
+ 1. Ja’afar, N. S., Mohamad, J., & Ismail, S. (2021). Machine learning for property price prediction and price valuation: a systematic literature review. Planning Malaysia, 19.
+ 2. Mohd, T., Jamil, N. S., Johari, N., Abdullah, L., & Masrom, S. (2020). An overview of real estate modelling techniques for house price prediction. In Charting a Sustainable Future of ASEAN in Business and Social Sciences: Proceedings of the 3ʳᵈ International Conference on the Future of ASEAN (ICoFA) 2019—Volume 1 (pp. 321-338). Springer Singapore.
+ 3. Sarip, A. G., Hafez, M. B., & Daud, M. N. (2016). Application of fuzzy regression model for real estate price prediction. Malaysian Journal of Computer Science, 29(1), 15-27.
