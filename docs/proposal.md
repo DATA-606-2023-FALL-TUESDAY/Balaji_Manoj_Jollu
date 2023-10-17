@@ -1,5 +1,5 @@
 # *DATA606 - Capstone Project Proposal*
-## 1. Proposal Title: Portfolio Management using Reinforcement Learning
+## 1. Proposal Title: Property price prediction
 - **Author Name** - Balaji Manoj Jollu
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - [GitHub](https://github.com/Jollu-Balaji-Manoj)
