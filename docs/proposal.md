@@ -9,7 +9,7 @@
 
 ## 2. Background
 ### - What is it about? 
-  - Property price prediction is a significant subject in both the fields of real estate and finance. Property price prediction involves predicting the future prices of real estate properties such as homes, flats, commercial buildings, and land using data and predictive modeling approaches. This topic is critical because of the affects for many kinds of stakeholders, including homebuyers, real estate investors, property developers, and legislators.
+  - Property price prediction is a crucial subject within the realms of real estate and finance. It encompasses the task of forecasting the future values of real estate assets, which can include houses, apartments, commercial properties, and land, by leveraging data and various predictive modeling techniques.
 
 
 ### - Why does it matter?  
@@ -17,20 +17,10 @@
    - Property price predictions are important because they affect investment decisions, advise purchasers and sellers, influence real estate development, inform policy decisions, and serve as economic indicators. However, these predictions are loaded with risk and should be considered with other criteria for well-informed decision-making.
 
 ### - What are your research questions?
-
--	These questions inspire the evolution of property price prediction, allowing for better informed decision-making and the creation of precise prediction systems.
   
-   * Essential variables: we seek what variables influence property values, such as location, size, amenities, and economic factors.
+   * Essential variables: we seek what variables influence property values, such as location, size, amenities , property type .
 
-   * Model Effectiveness: They evaluate which machine learning or statistical models, such as linear regression or neural networks, are more effective in predicting prices (Linear Regression,Decision Trees and Random Forest,XGBoost or LightGBM,Support Vector,Regression (SVR),K-Nearest Neighbors (KNN)).
-
-
-   * Temporal Trends: They study if models can explain for how real estate values vary over 
-
-   * Considering Risk: They explore strategies to take risk and uncertainty into account when making forecasts, particularly in erratic markets.
-
-   * Ethical Concerns: They address possible biases in data or algorithms that may disproportionately influence specific demographic groups in property price projections.
-
+   * Model Effectiveness: Evaluating the effectiveness of machine learning models for predicting prices, such as Linear Regression, Decision Trees and Random Forest, XGBoost, LightGBM, Support Vector Regression (SVR), and K-Nearest Neighbors (KNN) using our dataset and problem you are working with.
 
 ## 3. Data 
 
@@ -73,10 +63,71 @@
 | Listing_Category       | object    | Under which category it is listed (sell, rent)     |
 
   6. Price  variable/column will be your target/label in your ML model.
-  7. Rest of variables/columns except Price , Listing Category , description will be selected as features/predictors for your ML model.
+  7. Rest of variables/columns  are Property_type, Property_status, Price_per_unit_area, builder_id, Builder_name, Property_building_status, City_id, City_name, No_of_BHK, Locality_ID, Locality_Name, Longitude, Latitude, Size, Sub_urban_ID, Sub_urban_name, is_furnished, listing_domain_score, is_plot, is_RERA_registered, is_Apartment, is_ready_to_move, is_PentaHouse, is_studio
+
 
 ## 4. Exploratory Data Analysis (EDA) 
+
+- Plot graph for  property_type with respective Price
+  
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/72892f0b-e1dd-405b-8771-100d5356e0a8)
+
+- Plot graph for  Property_status with respective Price
+  
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/d5c46479-69fc-4bd2-912c-2552a4997f66)
+
+- Plot graph for  City with respective Price
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/f97f8db6-5624-4e57-a3eb-0f741d61e8af)
+
+- Plot graph for  Bed Room Count  with respective Price
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/b51c0dc2-208b-41bf-8804-d29e533c067c)
+
+- Plot graph for  furniture  with respective Price
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/410d5857-1385-4ccc-b285-216f0c154878)
+
+- Plot graph for  is Plot or not  with respective Price
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/c387c7c7-20d3-4c32-a21e-851f2def1cdf)
+
+
+- Plot graph for  is Real Estate Regulatory Authority Approved or not  with respective Price
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/817351df-ee29-4db2-baab-1b03a3046074)
+
+- Plot graph for  ready to move or not  with respective Price
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/36954794-07c1-4a59-840b-567fafc038a1)
+
+
+- Plot graph for  is Apartment or not  with respective Price
+
+  
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/79837331-2663-4864-89c8-0ed4db194ce0)
+
+
+- Plot graph for  is penthouse or not  with respective Price
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/4b797a91-4e84-40cf-81a2-26ca00fb3bac)
+
+
+- Plot graph for  is studio or not  with respective Price
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/8d9cebe9-a38d-497a-b5d5-5474123bf270)
+
+-  plot showing property types in city for the dataset
+
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Balaji_Manoj_Jollu/assets/144192466/1dc927bd-4a9a-45fb-a677-2c632f28b3a7)
+
+
+
 ## 5. Model Training 
+
+
+
+
 ## 6. Application of the Trained Models
 ## 7. Conclusion
  - In conclusion, our Property Price Prediction study indicates that accurate projections are critical for numerous real estate stakeholders. It emphasizes the difficulty of projecting property values, the need for data quality and preprocessing, and the importance of accounting for temporal patterns and incorporating risk. Ethical issues are acknowledged, and the study provides insights to influence real estate decision-making, with room for further research and development.
