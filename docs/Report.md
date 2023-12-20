@@ -1,4 +1,4 @@
-#  * Property Price Prediction - Report 
+#   Property Price Prediction - Report 
 ## DATA606 - Capstone Project 
 ## 1. Title and Author
 - **Title** - Property Price Prediction
