@@ -6,8 +6,8 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - Link to Author GitHub Account - [GitHub](https://github.com/Jollu-Balaji-Manoj)
 - Link to Author LinkedIn Account - [LinkedIn](www.linkedin.com/in/balaji-manoj-jollu)
-- Link to your Project PowerPoint presentation file - [Property price predictions](https://docs.google.com/presentation/d/1ARX-va2LRkcK0m8N6QgC5Mdt06Lmu0eEOjgbuWnB6FM/edit#slide=id.p1)
-- Link to your YouTube video - [Project Demo](www.linkedin.com/in/balaji-manoj-jollu)
+- Link to your Project PowerPoint presentation file - [Property price predictions](https://docs.google.com/presentation/d/1ecZ2R8OCvbiZbMuB9mp-o_MQZ0R9ea1t/edit?usp=sharing&ouid=108408742177504090979&rtpof=true&sd=true)
+- Link to your YouTube video - [Project Demo]([www.linkedin.com/in/balaji-manoj-jollu](https://youtu.be/aQmWB0bkzM8)) , [EDA_Demo]([www.linkedin.com/in/balaji-manoj-jollu](https://youtu.be/_-51b1dja9g)) , [Web_Appliction_Demo]([www.linkedin.com/in/balaji-manoj-jollu](https://youtu.be/LeVnZfPZsGc))
 
 ## 2. Background
 ###  What is it about? 
